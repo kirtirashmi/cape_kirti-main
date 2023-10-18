@@ -18,7 +18,7 @@ function CustomNavbar() {
               id="bdr-dropdown"
               style={{ cmarginRight: "20px" }}
             >
-              <div>
+              <div style={{overflowY:"scroll"}}>
                 <ul className="list-unstyled">
                   <li>
                     <NavDropdown
