@@ -64,7 +64,7 @@ function CustomCharts(props) {
         </div>
           <div className="col-3">
             <PieChart width={400} height={400}>
-              <Legend layout="horozontal" verticalAlign="middle" align="right" />
+              <Legend layout="horozontal" align="right" />
               <Pie
                 data={pieChartData}
                 cx="50%"
